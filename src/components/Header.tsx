@@ -21,7 +21,7 @@ export default function Header() {
                         <Link to="/" className="flex items-center space-x-3">
                             <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                                 <img
-                                    src="/1.jpg"
+                                    src="/volonter-kommunarka/1.jpg"
                                     alt="Эмблема Волонтеры Коммунарки"
                                     className="w-full h-full object-cover"
                                 />
@@ -42,8 +42,8 @@ export default function Header() {
                                 key={item.name}
                                 to={item.href}
                                 className={`font-medium transition-all duration-200 hover:text-blue-600 ${location.pathname === item.href
-                                        ? 'text-blue-600 font-semibold'
-                                        : 'text-gray-700'
+                                    ? 'text-blue-600 font-semibold'
+                                    : 'text-gray-700'
                                     }`}
                             >
                                 {item.name}
@@ -86,8 +86,8 @@ export default function Header() {
                                     key={item.name}
                                     to={item.href}
                                     className={`font-medium px-3 py-2 rounded-lg transition-all ${location.pathname === item.href
-                                            ? 'text-blue-600 bg-blue-50 font-semibold'
-                                            : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
+                                        ? 'text-blue-600 bg-blue-50 font-semibold'
+                                        : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
                                         }`}
                                     onClick={() => setIsMenuOpen(false)}
                                 >

@@ -14,25 +14,25 @@ const sportsVideos: Video[] = [
         id: 1,
         title: "Мы",
         description: "На сборах",
-        videoUrl: "/video/nvp/promo.mp4"
+        videoUrl: "/volonter-kommunarka/video/nvp/promo.mp4"
     },
     {
         id: 2,
         title: "Помощь",
         description: "Виды доврачебной помощи",
-        videoUrl: "/video/nvp/tactic.mp4"
+        videoUrl: "/volonter-kommunarka/video/nvp/tactic.mp4"
     },
     {
         id: 3,
         title: "Тактика",
         description: "Движения, пары, позиции",
-        videoUrl: "/video/nvp/tactic2.mp4"
+        videoUrl: "/volonter-kommunarka/video/nvp/tactic2.mp4"
     },
     {
         id: 4,
         title: "Соревнования",
         description: "Соревнования по НВП",
-        videoUrl: "/video/nvp/competition.mp4"
+        videoUrl: "/volonter-kommunarka/video/nvp/competition.mp4"
     }
 ];
 

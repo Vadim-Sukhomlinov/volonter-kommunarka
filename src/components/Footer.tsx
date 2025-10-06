@@ -19,7 +19,7 @@ export default function Footer() {
                         <div className="flex items-center space-x-3 mb-4">
                             <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                                 <img
-                                    src="/1.jpg"
+                                    src="/volonter-kommunarka/1.jpg"
                                     alt="Эмблема Волонтеры Коммунарки"
                                     className="w-full h-full object-cover"
                                 />
