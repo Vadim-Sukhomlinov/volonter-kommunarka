@@ -6,21 +6,21 @@ const activitySections = [
         id: 1,
         title: "Спорт",
         description: "Бокс, бег и другие спортивные активности",
-        imageUrl: "/volonter-kommunarka/img/sports/sports.jpg",
+        imageUrl: "img/sports/sports.jpg",
         href: "/activities/sports"
     },
     {
         id: 2,
         title: "НВП",
         description: "Начальная военная подготовка",
-        imageUrl: "/volonter-kommunarka/nvp.jpg",
+        imageUrl: "nvp.jpg",
         href: "/activities/nvp"
     },
     {
         id: 3,
         title: "Отчеты о помощи",
         description: "Видеоотчеты о нашей работе",
-        imageUrl: "/volonter-kommunarka/1.jpg",
+        imageUrl: "1.jpg",
         href: "/activities/reports"
     }
 ];
