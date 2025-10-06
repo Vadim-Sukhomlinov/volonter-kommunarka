@@ -21,7 +21,7 @@ export default function Header() {
                         <Link to="/" className="flex items-center space-x-3">
                             <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                                 <img
-                                    src="/volonter-kommunarka/1.jpg"
+                                    src="1.jpg"
                                     alt="Эмблема Волонтеры Коммунарки"
                                     className="w-full h-full object-cover"
                                 />
