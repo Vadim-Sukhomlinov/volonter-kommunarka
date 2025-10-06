@@ -47,13 +47,13 @@ export default function HomeContent() {
                             <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                                 <div
                                     className="w-full h-full bg-cover bg-center"
-                                    style={{ backgroundImage: "url('/volonteer1.jpg')" }}
+                                    style={{ backgroundImage: "url('volonteer1.jpg')" }}
                                 ></div>
                             </div>
                             <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                                 <div
                                     className="w-full h-full bg-cover bg-center"
-                                    style={{ backgroundImage: "url('/volonteer2.jpg')" }}
+                                    style={{ backgroundImage: "url('volonteer2.jpg')" }}
                                 ></div>
                             </div>
                         </div>
