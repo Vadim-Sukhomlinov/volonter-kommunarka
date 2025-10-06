@@ -1,6 +1,8 @@
-'use client';
-
 import { useState } from 'react';
+import promo from '../../assets/video/nvp/promo.mp4'
+import tactic1 from '../../assets/video/nvp/tactic.mp4'
+import tactic2 from '../../assets/video/nvp/tactic2.mp4'
+import competition from '../../assets/video/nvp/competition.mp4'
 
 interface Video {
     id: number;
@@ -14,25 +16,25 @@ const sportsVideos: Video[] = [
         id: 1,
         title: "Мы",
         description: "На сборах",
-        videoUrl: "/volonter-kommunarka/video/nvp/promo.mp4"
+        videoUrl: `${promo}`
     },
     {
         id: 2,
         title: "Помощь",
         description: "Виды доврачебной помощи",
-        videoUrl: "/volonter-kommunarka/video/nvp/tactic.mp4"
+        videoUrl: `${tactic1}`
     },
     {
         id: 3,
         title: "Тактика",
         description: "Движения, пары, позиции",
-        videoUrl: "/volonter-kommunarka/video/nvp/tactic2.mp4"
+        videoUrl: `${tactic2}`
     },
     {
         id: 4,
         title: "Соревнования",
         description: "Соревнования по НВП",
-        videoUrl: "video/nvp/competition.mp4"
+        videoUrl: `${competition}`
     }
 ];
 

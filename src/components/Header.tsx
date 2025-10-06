@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import img from '../assets/1.jpg'
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -21,7 +22,7 @@ export default function Header() {
                         <Link to="/" className="flex items-center space-x-3">
                             <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                                 <img
-                                    src="1.jpg"
+                                    src={img}
                                     alt="Эмблема Волонтеры Коммунарки"
                                     className="w-full h-full object-cover"
                                 />

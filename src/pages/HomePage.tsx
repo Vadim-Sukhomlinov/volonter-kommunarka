@@ -1,3 +1,7 @@
+import volo1 from '../assets/volonteer1.jpg'
+import volo2 from '../assets/volonteer2.jpg'
+
+
 export default function HomeContent() {
     return (
         <main className="flex-1">
@@ -47,13 +51,13 @@ export default function HomeContent() {
                             <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                                 <div
                                     className="w-full h-full bg-cover bg-center"
-                                    style={{ backgroundImage: "url('/volonter-kommunarka/volonteer1.jpg')" }}
+                                    style={{ backgroundImage: `url(${volo1})` }}
                                 ></div>
                             </div>
                             <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                                 <div
                                     className="w-full h-full bg-cover bg-center"
-                                    style={{ backgroundImage: "url('/volonter-kommunarka/volonteer2.jpg')" }}
+                                    style={{ backgroundImage: `url(${volo2})` }}
                                 ></div>
                             </div>
                         </div>

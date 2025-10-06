@@ -1,8 +1,11 @@
 'use client';
-
 import { useState } from 'react';
 
-// 1. Создаем интерфейс для объекта видео
+import fight1 from '../../assets/video/sports/fight.mp4'
+import fight2 from '../../assets/video/sports/fight2.mp4'
+import fight3 from '../../assets/video/sports/fight3.mp4'
+import fight4 from '../../assets/video/sports/run.mp4'
+
 interface Video {
     id: number;
     title: string;
@@ -15,25 +18,25 @@ const sportsVideos: Video[] = [
         id: 1,
         title: "Тренировка по боксу для начинающих",
         description: "Основы стойки, передвижений и прямых ударов.",
-        videoUrl: "/volonter-kommunarka/video/sports/fight.mp4"
+        videoUrl: `${fight1}`
     },
     {
         id: 2,
         title: "Спаринги",
         description: "Отработка в парах",
-        videoUrl: "/volonter-kommunarka/video/sports/fight2.mp4"
+        videoUrl: `${fight2}`
     },
     {
         id: 3,
         title: "Спаринги - 2",
         description: "Отработка в парах- 2",
-        videoUrl: "/volonter-kommunarka/video/sports/fight3.mp4"
+        videoUrl: `${fight3}`
     },
     {
         id: 4,
         title: "Пробежка",
         description: "Бег по пересеченной местности",
-        videoUrl: "/volonter-kommunarka/video/sports/run.mp4"
+        videoUrl: `${fight4}`
     }
 ];
 
