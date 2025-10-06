@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   base: '/volonter-kommunarka/',
   plugins: [react()],
+  build: {
+    target: 'esnext' // добавьте эту строку
+  },
+  esbuild: {
+    loader: 'tsx', // и эту
+  },
 })
