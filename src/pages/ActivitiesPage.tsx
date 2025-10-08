@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import sportLogo from '../assets/img/sports/sports.jpg'
+import nvpLogo from '../assets/nvp.jpg'
+import raportsLogo from '../assets/1.jpg'
+
+
 
 
 const activitySections = [
@@ -6,21 +11,21 @@ const activitySections = [
         id: 1,
         title: "Спорт",
         description: "Бокс, бег и другие спортивные активности",
-        imageUrl: "/img/sports/sports.jpg",
+        imageUrl: `${sportLogo}`,
         href: "/activities/sports"
     },
     {
         id: 2,
         title: "НВП",
         description: "Начальная военная подготовка",
-        imageUrl: "/nvp.jpg",
+        imageUrl: `${nvpLogo}`,
         href: "/activities/nvp"
     },
     {
         id: 3,
         title: "Отчеты о помощи",
         description: "Видеоотчеты о нашей работе",
-        imageUrl: "/1.jpg",
+        imageUrl: `${raportsLogo}`,
         href: "/activities/reports"
     }
 ];
