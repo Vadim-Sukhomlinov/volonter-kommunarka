@@ -8,7 +8,7 @@ export default function Header() {
 
     const navigation = [
         { name: 'Главная', href: '/' },
-        { name: 'Мероприятия', href: '/activities' },
+        { name: 'Деятельность', href: '/activities' },
         { name: 'О нас', href: '/about' },
         { name: 'Контакты', href: '/contact' },
     ]
