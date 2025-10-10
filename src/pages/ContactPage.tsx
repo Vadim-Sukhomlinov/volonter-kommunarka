@@ -1,6 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+import vk from '../assets/vk.png'
+import teleg from '../assets/telegram.png'
+
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -25,6 +28,19 @@ export default function Contact() {
             [e.target.name]: e.target.value
         });
     };
+
+    const social = [
+        {
+            icon: `${vk}`,
+            title: 'ВКонтакте',
+            href: 'https://vk.com/club232476335?from=groups'
+        },
+        {
+            icon: `${teleg}`,
+            title: 'Телеграм',
+            href: 'https://t.me/volonterykmnrka'
+        }
+    ]
 
     const contactInfo = [
         {
@@ -98,13 +114,20 @@ export default function Contact() {
                                     Мы в социальных сетях
                                 </h3>
                                 <div className="flex space-x-4">
-                                    {['ВКонтакте', 'Телеграм', 'Инстаграм', 'YouTube'].map((social) => (
-                                        <button
-                                            key={social}
-                                            className="bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-lg transition-colors"
+                                    {social.map((social) => (
+                                        <a
+                                            key={social.href}
+                                            href={social.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-gray-100 hover:bg-gray-200 p-3 rounded-lg transition-colors flex items-center justify-center"
                                         >
-                                            {social}
-                                        </button>
+                                            <img
+                                                src={social.icon}
+                                                alt={social.title}
+                                                className="w-6 h-6 object-contain"
+                                            />
+                                        </a>
                                     ))}
                                 </div>
                             </div>
