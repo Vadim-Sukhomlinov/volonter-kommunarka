@@ -7,7 +7,7 @@ export default function Footer() {
 
     const navigation = [
         { name: 'Главная', href: '/' },
-        { name: 'Мероприятия', href: '/activities' },
+        { name: 'Деятельность', href: '/activities' },
         { name: 'О нас', href: '/about' },
         { name: 'Контакты', href: '/contact' },
     ]
@@ -35,16 +35,6 @@ export default function Footer() {
                             Мы объединяем людей для помощи тем, кто в ней нуждается.
                             Вместе мы создаем добро и меняем жизни к лучшему.
                         </p>
-                        <div className="flex space-x-4">
-                            {['📘', '📷', '🐦', '📹'].map((icon, index) => (
-                                <button
-                                    key={index}
-                                    className="w-12 h-12 bg-gray-800 rounded-xl flex items-center justify-center hover:bg-gray-700 transition-all duration-200 hover:scale-110 text-lg"
-                                >
-                                    {icon}
-                                </button>
-                            ))}
-                        </div>
                     </div>
 
                     {/* Links */}
